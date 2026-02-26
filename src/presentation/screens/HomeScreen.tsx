@@ -38,12 +38,12 @@ export function HomeScreen() {
           </Body>
         </View>
         <Button
-          variant="ghost"
+          variant="destructive"
           size="icon"
           onPress={() => deleteTask(item.id)}
-          className="h-8 w-8 rounded-full"
+          className="h-8 w-8 rounded-md shrink-0"
         >
-          <Trash2 size={18} className="text-red-500" />
+          <Trash2 size={16} className="text-white" />
         </Button>
       </CardContent>
     </Card>
