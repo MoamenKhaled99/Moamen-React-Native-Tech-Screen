@@ -21,7 +21,7 @@ export const Input = React.forwardRef<TextInput, InputProps>(
           ref={ref}
           placeholderTextColor="#94a3b8" // slate-400
           className={cn(
-            "flex h-10 w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900",
+            "flex min-h-[40px] w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900",
             "focus:border-slate-900 dark:focus:border-slate-300 focus:bg-slate-50",
             "dark:border-slate-800 dark:bg-slate-950 dark:text-slate-50 dark:placeholder:text-slate-400",
             error && "border-red-500 focus:border-red-500",
